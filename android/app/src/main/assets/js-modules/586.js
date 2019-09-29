@@ -1,0 +1,1 @@
+__d(function(t,e,_,S,p){Object.defineProperty(S,"__esModule",{value:!0});S.default={ACCESS_KEY:'<YOU AK>',SECRET_KEY:'<YOU SK>',UP_HOST:'https://up.qiniup.com',RS_HOST:'http://rs.qbox.me',RSF_HOST:'http://rsf.qbox.me',API_HOST:'http://api.qiniu.com',RPC_TIMEOUT:36e5}},586,[]);

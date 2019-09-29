@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.whzj.whclient"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile project(':react-native-device-info')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    compile 'com.android.support:multidex:1.0.1'
+    //    implementation 'com.android.support:appcompat-v7:28.0.0'
+    //    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+//    testImplementation 'junit:junit:4.12'
+    //    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //    implementation "com.facebook.react:react-native:+"  // From node_modules
+    compile('com.facebook.react:react-native:0.55.4') { force = true }
+//    compile project(':react-native-fs')
+    //    compile project(':RCTWeChat')
+    compile project(':react-native-smart-amap')
+//    compile project(':react-native-doc-viewer')
+//    compile project(':react-native-image-picker')
+//    compile project(':react-native-file-selector')
+    implementation 'com.google.code.gson:gson:2.3.1'
+    compile project(':react-native-image-picker')
+    compile project(':react-native-smart-barcode')
+    compile('androidx.appcompat:appcompat:1.0.0')
+//    compile('androidx.appcompat:appcompat:1.0.0', {
+//        exclude group: 'com.android.support', module: 'design'
+//    })
+//    compile 'com.android.support:design:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation files('libs/netty-all-4.1.34.Final.jar')
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    compile project(':react-native-device-info')
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    implementation 'com.lzy.net:okgo:3.0.4'
+    //    微信支付,jCenter获取sdk
+    //    implementation files('libs/wechat-sdk-android-with-mta-1.0.2.jar')
+    implementation 'com.squareup.okhttp3:okhttp:3.14.1'
+}

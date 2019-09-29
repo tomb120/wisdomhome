@@ -1,0 +1,1 @@
+__d(function(e,t,s,a,_){s.exports=t(_[0]).registerAsset({__packager_asset:!0,httpServerLocation:"/assets/img",width:29,height:32,scales:[1],hash:"af6dfe871b8133e89332ea30886af231",name:"custom_clock_time_03",type:"png"})},752,[146]);

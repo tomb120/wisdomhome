@@ -1,0 +1,1 @@
+__d(function(t,e,i,n,r){Object.defineProperty(n,"__esModule",{value:!0}),n.getStatusBarHeight=function(){return arguments.length>0&&void 0!==arguments[0]&&arguments[0]?0:u.StatusBar.currentHeight};var u=e(r[0]),o=u.Dimensions.get('window');o.height,o.width},311,[20]);

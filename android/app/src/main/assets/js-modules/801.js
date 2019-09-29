@@ -1,0 +1,1 @@
+__d(function(e,t,o,r,d){var n=t(d[0]),l=t(d[1]),a=(n.Component,l.View),p=(l.StyleSheet,t(d[2]));o.exports=function(e){var t=e.shouldUpdated,o=babelHelpers.objectWithoutProperties(e,["shouldUpdated"]);return n.createElement(a,o,n.createElement(p,{shouldUpdate:t},o.children))}},801,[13,20,802]);

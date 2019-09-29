@@ -1,0 +1,1 @@
+__d(function(e,i,r,o,a){Object.defineProperty(o,"__esModule",{value:!0}),o.NavigationConsumer=o.NavigationProvider=void 0;var n=i(a[0]),t=(babelHelpers.interopRequireDefault(n),i(a[1])),u=(0,babelHelpers.interopRequireDefault(t).default)();o.NavigationProvider=u.Provider,o.NavigationConsumer=u.Consumer},671,[13,672]);

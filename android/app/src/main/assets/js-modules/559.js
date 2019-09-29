@@ -1,0 +1,1 @@
+__d(function(e,s,t,a,r){t.exports=s(r[0]).registerAsset({__packager_asset:!0,httpServerLocation:"/assets/node_modules/react-native-ratings/src/images",width:50,height:50,scales:[1],hash:"51671417ef20e0bbc32f0a2bc6edfa95",name:"rocket",type:"png"})},559,[146]);

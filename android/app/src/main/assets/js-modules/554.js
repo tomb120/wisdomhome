@@ -1,0 +1,1 @@
+__d(function(n,r,t,o,u){var a=r(u[0]);t.exports=function(n){var r=a(n),t=r%1;return r==r?t?r-t:r:0}},554,[555]);

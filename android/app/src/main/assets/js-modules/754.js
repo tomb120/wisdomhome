@@ -1,0 +1,1 @@
+__d(function(e,t,r,p,i){var s=t(i[0]),u=(babelHelpers.interopRequireDefault(s),t(i[1])),a=t(i[2]),l=babelHelpers.interopRequireDefault(a),n={name:'FocusedTextView',propTypes:babelHelpers.extends({text:l.default.string,size:l.default.number},u.View.propTypes)};r.exports=(0,u.requireNativeComponent)("FocusedTextView",n)},754,[13,20,111]);

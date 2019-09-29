@@ -1,0 +1,1 @@
+__d(function(i,n,o,l,a){o.exports={baseurl:"http://132.232.177.146/buildSitePlatform/",logininfo:"logininfo",uploadurl:'image.hjninan.com.qiniudns.com',uploadtoken:'OekmVO2jr31nYPJVE1SbyNhfeyPbgX0x6Ubk6Tah:xcsgt1T5ikw-HsO9QiBghi3OZpo=:eyJzY29wZSI6InNhbnhpamlhbmdyZW4iLCJkZWFkbGluZSI6MTU5ODAyMTc4NX0='}},568,[]);

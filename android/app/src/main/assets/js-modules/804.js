@@ -1,0 +1,1 @@
+__d(function(e,n,a,r,c){var t=n(c[0]),l=n(c[1]),d=l.TouchableNativeFeedback;l.View;a.exports=function(e){return t.createElement(d,babelHelpers.extends({delayPressIn:0,background:d.SelectableBackground()},e),e.children)}},804,[13,20]);

@@ -1,0 +1,1 @@
+__d(function(t,r,n,o,c){var e=r(c[0]),u=r(c[1]),a=r(c[2]),i='[object Object]',l=Function.prototype,f=Object.prototype,p=l.toString,s=f.hasOwnProperty,b=p.call(Object);n.exports=function(t){if(!a(t)||e(t)!=i)return!1;var r=u(t);if(null===r)return!0;var n=s.call(r,'constructor')&&r.constructor;return'function'==typeof n&&n instanceof n&&p.call(n)==b}},464,[340,426,347]);
